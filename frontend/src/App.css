@@ -5,44 +5,26 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-/* customize scroll bar */
-::-webkit-scrollbar {
-  width: 8px;
+.active {
+  color: white;
+  background-color: rgb(40, 173, 0);
+  font-weight: bolder;
+  padding: 5px 10px;
+  border-radius: 50px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
 }
 
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 255, 0.705);
-  border-radius: 10px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
-.active,
 .logout {
-  color: white;
-  background-color: rgb(58, 58, 197);
+  color: rgb(252, 252, 252);
+  background-color: rgb(66, 66, 66);
   font-weight: bolder;
   padding: 5px 10px;
-  border-radius: 50px;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 1px rgb(0, 0, 0);
 }
 
-.logout_button {
-  color: white;
-  background-color: rgb(58, 58, 197);
-  font-weight: bolder;
-  padding: 5px 10px;
-  border-radius: 50px;
-  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.5);
-}
 
-task-container {
+.lout task-container {
   height: 90vh;
   background-color: whitesmoke;
 }
